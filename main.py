@@ -10,5 +10,5 @@ def main():
     filepath = sys.argv[1]  # grab the first argument after the script name
     counting = count_characters(filepath)
     return get_num_words(filepath), sort_dict(counting)
-
+###
 main()
